@@ -28,6 +28,10 @@ RUN uv venv --python 3.10 && uv pip install -e . && uv pip install \
       pandas \
       scipy \
       matplotlib \
-      wandb
+      wandb \
+      jupyterlab \
+      notebook \
+      ipykernel \
+      scikit-image==0.24.0
 
 ENV PATH="/trident/.venv/bin:$PATH"
